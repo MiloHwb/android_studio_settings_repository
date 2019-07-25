@@ -1,0 +1,18 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="realm" type="Native" />
+      <mapping pattern="idcardmodel" type="PLAIN_TEXT" />
+      <mapping pattern="Cookies" type="PLAIN_TEXT" />
+      <mapping pattern="工具类说明文档" type="PLAIN_TEXT" />
+      <mapping pattern="xposed_init" type="PLAIN_TEXT" />
+      <mapping pattern="livenessmodel" type="PLAIN_TEXT" />
+      <mapping ext="so" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="cer" type="PLAIN_TEXT" />
+      <mapping ext="propertie" type="PLAIN_TEXT" />
+      <removed_mapping ext="so" approved="true" type="UNKNOWN" />
+      <removed_mapping ext="so" approved="true" type="UNKNOWN" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Android/Insert App Indexing API Code" />
+    <ignoreAction name="Android/Override Resource in Other Configuration..." />
+    <ignoreAction name="Java/Annotations/Edit method contract" />
+    <ignoreAction name="Java/Imports/Add On Demand Static Import" />
+    <ignoreAction name="Java/Refactorings/Encapsulate field" />
+    <ignoreAction name="Java/Imports/Add Single-Member Static Import" />
+  </component>
+</application>
