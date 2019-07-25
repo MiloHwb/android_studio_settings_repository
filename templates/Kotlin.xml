@@ -1,0 +1,95 @@
+<templateSet group="Kotlin">
+  <template name="fun0i" value="fun $NAME$() : $RETURN$ " description="Interface function with no parameters" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun1i" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$) : $RETURN$ " description="Interface function with one parameter" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun2i" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$, $PARAM2$ : $PARAM2TYPE$) : $RETURN$ " description="Interface function with two parameters" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun0iv" value="fun $NAME$()" description="Interface function with no parameters returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun0v" value="fun $NAME$() {&#10;$END$&#10;}" description="Function with no parameters returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun1v" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$) {&#10;$END$&#10;}" description="Function with one parameter returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun1iv" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$)" description="Interface function with one parameter returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun2v" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$, $PARAM2$ : $PARAM2TYPE$) {&#10;$END$&#10;}" description="Function with two parameters returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="fun2iv" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$, $PARAM2$ : $PARAM2TYPE$) " description="Interface function with two parameters returning nothing" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <variable name="PARAM2TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
