@@ -258,6 +258,10 @@
           <option name="url" value="https://github.com/phoenixsky/fun_android_flutter.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/CarGuo/state_manager_demo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Workspace\Android_WorkSpace\GitHub_Workspace" />
